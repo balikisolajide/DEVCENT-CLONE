@@ -75,7 +75,7 @@ hr{
 }
 .nav-button a{
     color: #e40084;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 400;
 }
 .nav-button button{
@@ -95,7 +95,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 120px 48px;
+    padding: 120px 80px;
     background-color: black;
 }
 .hero-left{
@@ -139,4 +139,123 @@ hr{
 .hero-right img{
     width: 100%;
     height: 100%;
+}
+.section-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 1oopx;
+    gap: 50px;
+    background-color: black;
+}
+.section-cards-header{
+    width: 965px;
+
+}
+.section-cards-header h1{
+    font-size: 40px;
+    line-height: 51px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.text-yellow{
+    color: #ffba0e;
+}
+.text-red{
+    color: #e40084;
+}
+.six-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    place-items: center;
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    border-radius: 35px;
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    290pxgap: 16px;
+}
+.card-content h3{
+    color: #202020;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+}
+.card-content p{
+    color: #202020;
+    font-size: 16px;
+    font-weight: 400;
+    width: 290px;
+    height: 168px;
+}
+.card-content img{
+    width: 57px;
+    height: auto;
+}
+.section-cards button{
+    background-color: #e40084;
+    width: 172px;
+    height: 47px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+.section-cards button:hover{
+    background-color: #ffba0e;
+}
+.best-time{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding-top: 40px; */
+    background-color: black;
+    /* width: 1300px; */
+    padding: 40px 100px;
+    /* height: 225px; */
+}
+.best-time h2{
+    text-align: center;
+    color: #ffba0e;
+    font-size: 40px;
+    font-weight: 500;
+}
+.best-time-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    place-items: center;
+}
+.best-time-content{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 313px;
+    height: 123px;
+}
+.best-time-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.best-time-content-text h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.best-time-content-text p{
+    color: #9b9b9b;
+    font-size: 18px;
+    font-weight: 400px;
 }
